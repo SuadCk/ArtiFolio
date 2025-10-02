@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+header {
+    background-color: #2D2D2D;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img {
+    width: 125px;
+}
+
+header nav {}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main .fst-sec {
+    background-image: url(dw-1.png);
+    width: 73%;
+    height: 490px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .fst-sec .text-sec {
+    width: 50%;
+}
+
+main .fst-sec .text-sec h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #2D2D2D;
+    font-size: 43px;
+    margin: 0;
+}
+
+main .fst-sec .text-sec span {
+    color: white;
+}
+
+main .fst-sec .text-sec p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+main .fst-sec .btn-sec button {
+    color: white;
+    background-color: #2D2D2D;
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+main .shop-sec {
+    width: 73%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .shop-sec div {
+    width: 100%;
+    /* padding: 0px 33px; */
+}
+
+main .shop-sec div h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+main .shop-sec div img {
+    width: 150px;
+}
+
+main .shop-sec .frames {}
+
+main .shop-sec section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .shop-sec div h3 {
+    color: #2D2D2D;
+    margin: 16px 0px 0px;
+}
+
+main .shop-sec div .prc-sec {
+    display: flex;
+}
+
+main .shop-sec div .prc-sec div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .shop-sec div a {
+    color: rgb(127, 124, 124);
+    text-decoration: none;
+}
+
+main .shop-sec .posters div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .shop-sec .posters div button {
+    width: 145px;
+    margin-top: 16px;
+    height: 30px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: black;
+    cursor: pointer;
+}
+
+main .testi {
+    width: 73%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+main .testi h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+main .testi div {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .testi div img {
+    width: 70px;
+}
+
+main .testi section {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+main .testi h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+main .testi p {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    background-color: #2D2D2D;
+    flex-direction: column;
+    padding: 40px 204px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer .group {
+    display: flex;
+}
+
+footer .group .one {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 25px 50px; */
+}
+
+footer .group .two {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 25px 50px; */
+}
+
+footer .group .icon {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 25px 50px; */
+}
+
+footer .group .sub {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px 50px; */
+    justify-content: flex-start;
+}
+
+footer .group h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer .group div p {
+    color: rgb(206, 202, 202);
+}
+
+footer .group .sub input {
+    width: 300px;
+    height: 27px;
+    /* border-radius: 3px; */
+    border: transparent;
+}
+
+footer .group .sub button {
+    width: 100px;
+    height: 29px;
+    border: transparent;
+    background-color: #d8b87b;
+    cursor: pointer;
+}
+
+footer .copy {
+    color: white;
+    opacity: 50%;
+    margin-top: 60px;
+}
